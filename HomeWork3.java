@@ -32,7 +32,7 @@ class HomeWork3 {
     public static void main(String[] args) {
     
         
-        // 1.
+        // 1. Inver array values
         int[] arrOne = createAndFillArray(10, true, 2);
         System.out.println(Arrays.toString(arrOne));
         for (int i = 0; i < arrOne.length; i++) {
@@ -41,11 +41,11 @@ class HomeWork3 {
         System.out.println(Arrays.toString(arrOne));
         
         
-        // 2.
+        // 2. Fill the array with values from 1 to N
         int[] arrTwo = createAndFillArray(100, false, 1);
         System.out.println(Arrays.toString(arrTwo));
         
-        // 3.
+        // 3. Loop over array elements with condition
         int[] arrThree = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         System.out.println(Arrays.toString(arrThree));
         for (int i =0; i < arrThree.length; i++) {
@@ -55,7 +55,7 @@ class HomeWork3 {
         }
         System.out.println(Arrays.toString(arrThree));
         
-        //4.
+        //4. Fill in the diagonals of the matrix
         int[][] matrix = new int [5][5];
         for (int i = 0; i < matrix.length; i++) {
             matrix[i][i] = 1;
@@ -65,7 +65,7 @@ class HomeWork3 {
             System.out.println(Arrays.toString(matrix[i]));
         }
         
-        //5.
+        //5. Create and fill an array with the same values
         int[] arrFive = createAndFillArray(15, 5);
         System.out.println(Arrays.toString(arrFive));
     
