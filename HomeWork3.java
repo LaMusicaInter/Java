@@ -32,7 +32,7 @@ class HomeWork3 {
     public static void main(String[] args) {
     
         
-        // 1.
+        // 1. 
         int[] arrOne = createAndFillArray(10, true, 2);
         System.out.println(Arrays.toString(arrOne));
         for (int i = 0; i < arrOne.length; i++) {
@@ -41,7 +41,7 @@ class HomeWork3 {
         System.out.println(Arrays.toString(arrOne));
         
         
-        // 2.
+        // 2. 
         int[] arrTwo = createAndFillArray(100, false, 1);
         System.out.println(Arrays.toString(arrTwo));
         
@@ -55,7 +55,7 @@ class HomeWork3 {
         }
         System.out.println(Arrays.toString(arrThree));
         
-        //4.
+        //4. 
         int[][] matrix = new int [5][5];
         for (int i = 0; i < matrix.length; i++) {
             matrix[i][i] = 1;
@@ -65,7 +65,7 @@ class HomeWork3 {
             System.out.println(Arrays.toString(matrix[i]));
         }
         
-        //5.
+        //5. 
         int[] arrFive = createAndFillArray(15, 5);
         System.out.println(Arrays.toString(arrFive));
     
